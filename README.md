@@ -1,6 +1,6 @@
 ## Deep Learning models trained with optimal parameters using Keras
 
-1. Trained MNIST data-set 
+1. Trained MNIST data-set on Custom Neural Network 
 * Parameters: 17000
 * Test accuracy: 99.23 % 
 
