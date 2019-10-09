@@ -31,7 +31,7 @@ As part of External Internship Program 3.0  (EIP) hosted by inkers.ai , develope
 - Train and val accuracy will take a hit now as images are more complex than one's seen earlier. I continued to train on check-pointed model with augmentations for another 20-30 epochs and got val-accuracy around 48%.
 - Later on as last step , I tried using Cyclic-Learning Rate to chose optimal learning rate for model and gain some accuracy. This step helped me to get hike of around 3-4% (could have been more as well).
 - I even used Separable convolutions to reduce number of parameters.
-- **Result : Val-Accuracy: 50.3%, Number of Parameters: 5.3 Million**.
+- **Result : Val-Accuracy: 50.3%, Number of Parameters: 5.3 Million (One of the top EIP3.0 Phase-1 scorer)**.
 
 
 
@@ -46,3 +46,5 @@ As part of External Internship Program 3.0  (EIP) hosted by inkers.ai , develope
 - Give a try to use TPU instead of GPU , though I haven't but this will significantly reduce training time to few seconds from minutes.
 
 - Cyclic Learning Rate is an amazing technique to use and see how learning rate varies accuracy.
+
+- Val-accuracy alone doesn't matter focus on number of parameters too.
