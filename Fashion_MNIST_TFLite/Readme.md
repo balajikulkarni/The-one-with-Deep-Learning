@@ -4,23 +4,21 @@ Fashion MNIST dataset is similar to MNIST data-set which consists of 28x28 greys
 
 More details:https://github.com/zalandoresearch/fashion-mnist
 
-```markdown
-### Labels
+Labels
 Each training and test example is assigned to one of the following labels:
 
 | Label | Description |
-| --- | --- |
-| 0 | T-shirt/top |
-| 1 | Trouser |
-| 2 | Pullover |
-| 3 | Dress |
-| 4 | Coat |
-| 5 | Sandal |
-| 6 | Shirt |
-| 7 | Sneaker |
-| 8 | Bag |
-| 9 | Ankle boot |
-```
+| ----- | ----------- |
+| 0     | T-shirt/top |
+| 1     | Trouser     |
+| 2     | Pullover    |
+| 3     | Dress       |
+| 4     | Coat        |
+| 5     | Sandal      |
+| 6     | Shirt       |
+| 7     | Sneaker     |
+| 8     | Bag         |
+| 9     | Ankle boot  |
 
 In this article, we will see how to run a pre-trained neural-network model on Raspberry-Pi 3 model using TFLite framework.
 
